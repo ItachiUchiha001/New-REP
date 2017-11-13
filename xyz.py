@@ -9,3 +9,5 @@ class car:
         print(self.ccompany)
         print(self.cmodel)
         print(self.cprice)
+    def getcardet(self):
+        return(self.cnumber,self.ccompany,self.cmodel,self.cprice)
